@@ -1,5 +1,5 @@
 
-# Infinite Payments - Cross-Border Payment System
+Stablecoin based currency exchange Payment System
 
 A payment processing system that handles cross-border payments using **Temporal workflows**, **USDC stablecoin**, and real-time **FX rates from U.S. Treasury**.
 

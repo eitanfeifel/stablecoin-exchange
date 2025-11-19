@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # Infinite Payments - Cross-Border Payment System
 
 A production-grade payment processing system that handles cross-border payments using **Temporal workflows**, **USDC stablecoin**, and real-time **FX rates from U.S. Treasury**.

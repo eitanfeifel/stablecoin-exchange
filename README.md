@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Infinite Payments - Cross-Border Payment System
 
 A production-grade payment processing system that handles cross-border payments using **Temporal workflows**, **USDC stablecoin**, and real-time **FX rates from U.S. Treasury**.
@@ -561,3 +562,7 @@ if (mintingResult.status === 'FAILED') {
 
 ---
 
+=======
+# stablecoin-exchange
+Cross-border payment system with Temporal workflows, USDC, and real-time FX rates. Implements saga pattern, child workflows, and distributed transaction handling.
+>>>>>>> 0ee15a23fbe81d06c1cdd9a8ba255a4b601f94bf

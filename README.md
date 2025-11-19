@@ -1,11 +1,10 @@
 
 # Infinite Payments - Cross-Border Payment System
 
-A production-grade payment processing system that handles cross-border payments using **Temporal workflows**, **USDC stablecoin**, and real-time **FX rates from U.S. Treasury**.
+A payment processing system that handles cross-border payments using **Temporal workflows**, **USDC stablecoin**, and real-time **FX rates from U.S. Treasury**.
 
 ## Project Overview
-
-This system simulates how companies like Wise, Revolut, or Remitly handle cross-border payments:
+Sample usage:
 
 1. **Customer in US** wants to send $100 to someone in Mexico
 2. System receives $100 USD (+ $0.30 funding fee)
@@ -105,11 +104,7 @@ npm install
 
 Copy the example config and update with your PostgreSQL password:
 
-```bash
-cp src/db/constants.example.ts src/db/constants.ts
-```
-
-Then edit `src/db/constants.ts`:
+ edit `src/db/dgConfig.ts`:
 
 ```typescript
 export const DB_CONFIG = {
@@ -120,8 +115,6 @@ export const DB_CONFIG = {
   port: 5432,
 };
 ```
-
-**Never commit `constants.ts` to GitHub** - it's in `.gitignore` for security.
 
 ### **3. Create Database**
 
